@@ -8,9 +8,13 @@ main {
   display: flex;
 }
 
+body {
+  font-family: cursive;
+}
+
 form {
   padding: 12px;
-  background-color: plum;
+  background-color: aliceblue;
 }
 
 aside {
@@ -21,6 +25,7 @@ aside {
   height: 32px;
   border: none;
   border-radius: 4px;
+  text-align: center;
 }
 
 .form-btn-container {
@@ -29,7 +34,8 @@ aside {
 }
 
 .bg-cornsilk {
-  background-color: cornsilk;
+  background-color: cornflowerblue;
+  color: white;
 }
 
 .bg-reset {
@@ -40,13 +46,18 @@ aside {
 input[type="number"] {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: -14px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 6px;
   box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
   font-size: 14px;
+}
+
+section {
+  padding: 12px;
+  background-color: aliceblue;
 }
 
 footer {
