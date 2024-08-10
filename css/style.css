@@ -1,1 +1,33 @@
 /* Ini Javascript */
+
+.main-title {
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
+
+form {
+  padding: 12px;
+  background-color: plum;
+}
+
+aside {
+  padding: 48px;
+}
+
+.button {
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+}
+
+.bg-cornsilk {
+  background-color: cornsilk;
+}
+
+.bg-reset {
+  background-color: red;
+  color: white;
+}
