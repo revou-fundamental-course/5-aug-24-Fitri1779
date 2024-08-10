@@ -23,6 +23,11 @@ aside {
   border-radius: 4px;
 }
 
+.form-btn-container {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
 .bg-cornsilk {
   background-color: cornsilk;
 }
@@ -30,4 +35,20 @@ aside {
 .bg-reset {
   background-color: red;
   color: white;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
 }
